@@ -1,8 +1,9 @@
+import 'reflect-metadata';
 import express, { NextFunction, Request, response, Response } from 'express';
 import cors from 'cors';
 import routes from './routes';
 import AppError from '@shared/erros/AppError';
-import { MessageChannel } from 'worker_threads';
+//import '@shared/typeorm';
 
 const app = express();
 
